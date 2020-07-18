@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Covid 19 Tracker India</string>
+    <string name="menu_share">Share</string>
+    <string name="developers">Developers</string>
+    <string name="namePrivacy">Privacy Policy</string>
+    <string name="about">About</string>
+    <string name="a_covid_19_informaion_app_based_on_covid_19_india_tracker_api">A Covid 19 Informaion App based on (Covid 19 India Tracker) API.</string>
+    <string name="version_1_0">Version : 1.0</string>
+</resources>

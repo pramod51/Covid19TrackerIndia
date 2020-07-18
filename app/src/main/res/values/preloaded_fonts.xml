@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abeezee</item>
+        <item>@font/acme</item>
+        <item>@font/allerta</item>
+        <item>@font/amaranth</item>
+        <item>@font/faster_one</item>
+        <item>@font/finger_paint</item>
+        <item>@font/kalam_light</item>
+    </array>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardCornerRadius="10dp"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/states"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abeezee"
+                android:padding="10dp"
+                android:text="Uttar Pradesh"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"> </TextView>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="140dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="Confirmed"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/red"> </TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="12345"
+                        android:id="@+id/confirmed1"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/red"> </TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="123"
+                        android:id="@+id/confirmed2"
+                        android:drawableStart="@drawable/up_arrow_red"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/red"> </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="Active"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/blue"> </TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="12345"
+                        android:id="@+id/active1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/blue"> </TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="123"
+                        android:id="@+id/active2"
+                        android:drawableStart="@drawable/down_arrow_blue"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/blue"> </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="Recovered"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/lime_green"> </TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="12345"
+                        android:id="@+id/recover1"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/lime_green"> </TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="123"
+                        android:id="@+id/recover2"
+                        android:drawableStart="@drawable/up_arrow_green"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/lime_green"> </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="Deaths"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/black"> </TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="12345"
+                        android:id="@+id/death1"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/black"> </TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="123"
+                        android:drawableStart="@drawable/up_arrow_black"
+                        android:id="@+id/death2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abeezee"
+                        android:textColor="@color/black"> </TextView>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="5dp"
+            android:layout_height="200dp"/>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>
